@@ -8,7 +8,7 @@
 # directory, each scan's log file is indexed by the datetime that the scan was
 # started.
 
-./autoreconf -i -v -f
+autoreconf -i -v -f
 ./configure
 datetime_startrun=$(date +"%Y%m%d%H%M%S")
 
